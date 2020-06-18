@@ -1,0 +1,22 @@
+#include<simplecpp>
+
+main_program
+{
+    turtleSim();
+    repeat(4)
+    {
+    repeat(3)
+        {
+         forward(30);
+         wait(1);
+         penUp();
+         wait(1);
+         forward(30);
+         wait(1);
+         penDown();
+         wait(1);
+        }
+        right(90);
+     }
+wait(20);
+}
